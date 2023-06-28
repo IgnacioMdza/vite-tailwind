@@ -3,8 +3,8 @@ import Card from "./components/Card"
 export default function App() {
   return (
     <>
-      <div className='bg-neutral-900 p-8 font-sans h-100'>
-        <header className='max-w-5xl mx-auto flex justify-between items-center mt-6 mb-6'>
+      <div className='bg-neutral-900 p-8 font-sans min-h-screen'>
+        <header className='max-w-5xl mx-auto flex justify-between items-center mt-8 mb-12'>
           <div className='flex flex-col gap-3 w-2/4'>
             <div>
               <h1 className='inline-block font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 '>Vite</h1>
@@ -24,7 +24,7 @@ export default function App() {
             </div>
           </div>
           <div className='w-2/4 relative'>
-            <img className='inset-1/2 -translate-x-1/2 -translate-y-1/2 max-w-sm p-10 z-10 absolute' src="https://vitejs.dev/logo-with-shadow.png"></img>
+            <img className='inset-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[300px] z-10 absolute' src="https://vitejs.dev/logo-with-shadow.png"></img>
             <div className='mx-auto rotate-45 opacity-70 w-72 h-72 rounded-full bg-gradient-to-r from-blue-400 from-50% to-purple-600 to-50% blur-[45px]'></div>
           </div>
         </header>
